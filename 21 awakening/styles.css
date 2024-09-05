@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    list-style-type: none;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom,
+    #fefefe 0%,
+   #f76984 100%
+    );
+    text-decoration: none;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.nav__director {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(25, 70, 70);
+}
+.nav__links {
+    display: flex; 
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+.nav__link {
+    display: flex;
+    padding: 12px;
+    color: rgb(25, 70, 70);
+}
+.nav__link:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: all 1.5s ease;
+}
+
+.Main {
+    display: flex; 
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( to top, 
+    #fe8754 0%,
+    #fe2134 100%);
+   
+    
+}
+.Main h1{
+    color: #f76984;
+    
+    
+}
+
+.Main p{
+    color: green;
+    
+
+   
+   
+
+    
+}
+.Main__test {
+    
+    
+    
+}
+.Main__pop {
+    width: 100%
+}
+.Main img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    padding-top: 20px;
+    margin-left: 400px;
+  
+    
+    
+}
